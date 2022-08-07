@@ -38,3 +38,18 @@ header > h1 {
     padding: 0.3em 0.6em;
     border: 1px solid #fffa;
 }
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul > li {
+    background-color: #fff;
+    border-radius: 10em;
+    padding: 1em;
+    margin: 1.4em 0;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}

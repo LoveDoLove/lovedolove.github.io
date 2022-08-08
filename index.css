@@ -77,12 +77,22 @@ a {
 }
 
 #intro {
+    display: flex;
+    box-sizing: border-box;
     align-items: center;
+    gap: 0.5em;
+    border-radius: 10em;
+    margin: 0 35em;
+    padding: 0;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
     color: #ff0;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(28 32 93 / 40%);
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
 #fixyt {
@@ -119,7 +129,7 @@ a {
     background-color: #2696E8;
     width: 50px;
     height: 50px;
-    opacity: 0.2;
+    opacity: 0.1;
     transform: translate(-30%, -30%);
     border-radius: 50%;
 }

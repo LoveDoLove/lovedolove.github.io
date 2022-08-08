@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    cursor: none;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,6 +48,7 @@ ul {
     list-style: none;
     margin: 0 auto;
     padding: 1em;
+    cursor: none;
 }
 
 ul > li {
@@ -65,6 +67,7 @@ ul > li > a {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
+    animation: colors 5s infinite;
 }
 
 a {
@@ -74,7 +77,7 @@ a {
 
 a:hover,
 a:active {
-    animation: colors 5s infinite;
+    cursor: none;
 }
 
 #intro {

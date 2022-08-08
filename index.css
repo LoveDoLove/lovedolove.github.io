@@ -80,3 +80,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+#fixyt {
+    margin: 0;
+}

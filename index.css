@@ -4,6 +4,10 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    cursor: none;
+}
+
 body {
     background: url(./pics/bg.jpg) repeat center center fixed;
     background-size: cover;
@@ -118,8 +122,4 @@ a {
     opacity: 0.2;
     transform: translate(-30%, -30%);
     border-radius: 50%;
-}
-
-.nocursor {
-    cursor: none;
 }

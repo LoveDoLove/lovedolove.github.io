@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    cursor: none;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -48,7 +47,6 @@ ul {
     list-style: none;
     margin: 0 auto;
     padding: 1em;
-    cursor: none;
 }
 
 ul > li {
@@ -67,17 +65,11 @@ ul > li > a {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
-    animation: colors 5s infinite;
 }
 
 a {
     color: black;
     text-decoration: none;
-}
-
-a:hover,
-a:active {
-    cursor: none;
 }
 
 #intro {
@@ -126,4 +118,8 @@ a:active {
     opacity: 0.2;
     transform: translate(-30%, -30%);
     border-radius: 50%;
+}
+
+.nocursor {
+    cursor: none;
 }

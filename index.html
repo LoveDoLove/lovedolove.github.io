@@ -11,6 +11,7 @@
     <div class="cursor"></div>
     <script type="text/javascript">
         const cursor = document.querySelector(".cursor");
+        var timeout;
 
         //follow cursor on mousemove
         document.addEventListener("mousemove", (e) => {
@@ -20,6 +21,13 @@
             cursor.style.top = y + "px";
             cursor.style.left = x + "px";
             cursor.style.display = "block";
+
+        //cursor effect on mouse stopped
+        function mousestopped() {
+            cursor.style.display = "none";
+        }
+        clearTimeout(timeout);
+        timeout = setTimeout(mousestopped, 1000);
         });
 
         //cursor effect on mouseout

@@ -72,13 +72,9 @@ ul > li > a {
 }
 
 a {
-    color: black;
+    font-weight: bold;
     text-decoration: none;
-}
-
-a:hover,
-a:active {
-    animation: infinite colors 5s;
+    animation: infinite colors 2s;
 }
 
 #intro {

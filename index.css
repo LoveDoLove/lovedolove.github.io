@@ -29,7 +29,6 @@ header > img {
     width:  6em;
     height: 6em;
     border-radius: 100%;
-    border: 1px solid #fff;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
@@ -39,7 +38,8 @@ header > h1 {
     font-weight: bold;
     border-radius: 1em;
     background-color: #000a;
-    color: #fff;
+    color: yellow;
+    animation: infinite colors 4s;
     padding: 0.3em 0.6em;
     border: 1px solid #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -72,14 +72,13 @@ ul > li > a {
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
+    animation: infinite colors 4s;
 }
 
 a:hover,
 a:active {
-    font-weight: normal;
-    animation: infinite colors 0.5s;
+    font-weight: bold;
 }
 
 #intro {
@@ -87,6 +86,7 @@ a:active {
     font-weight: bold;
     text-align: center;
     font-size: 1.5em;
+    animation: infinite colors 4s;
 }
 
 #fixyt {

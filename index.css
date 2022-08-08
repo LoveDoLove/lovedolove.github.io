@@ -4,10 +4,6 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    color: #ff5000;
-}
-
 body {
     background: url(./pics/bg.jpg) repeat center center fixed;
     background-size: cover;
@@ -80,29 +76,6 @@ a {
     text-align: center;
     font-weight: bold;
     color: #ff0;
-}
-
-#download {
-    align-items: center;
-    text-align: center;
-    color: #ff0;
-}
-
-#download > li > a {
-    color: red;
-    align-items: center;
-    gap: 0.5em;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-ol > li {
-    background-color: rgba(241, 232, 232, 0.664);
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    border-radius: 10em;
-    padding: 1em;
-    margin: 1.4em 0;
-    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    flex-direction: column;
 }

@@ -6,36 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoveDoLove Official</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="app.js"/>
+    <link rel="stylesheet" href="a.js"/>
 </head>
 <body>
     <div class="cursor"></div>
-    <script type="text/javascript">
-        const cursor = document.querySelector(".cursor");
-        var timeout;
-
-        //follow cursor on mousemove
-        document.addEventListener("mousemove", (e) => {
-            let x = e.pageX;
-            let y = e.pageY;
-
-            cursor.style.top = y + "px";
-            cursor.style.left = x + "px";
-            cursor.style.display = "block";
-
-        //cursor effect on mouse stopped
-        function mousestopped() {
-            cursor.style.display = "none";
-        }
-        clearTimeout(timeout);
-        timeout = setTimeout(mousestopped, 5000);
-        });
-
-        //cursor effect on mouseout
-        document.addEventListener("mouseout", () => {
-            cursor.style.display = "none";
-        })
-    </script>
     <header>
         <img src="./pics/logo.png">
         <h1 id="tag">@LoveDoLove</h1>

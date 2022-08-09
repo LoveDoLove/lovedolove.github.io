@@ -1,14 +1,10 @@
-html {
-    background-color: #000;
-}
-
 .cursor {
+    z-index: 999;
     position: absolute;
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%) scale(0);
     width: 2rem;
     height: 2rem;
-    background-color: red;
     border-radius: 50%;
     border: 2px solid yellow;
     animation: scale-up .6s;

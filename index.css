@@ -73,6 +73,17 @@ a {
     animation: infinite colors 4s;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: none;
+    text-decoration: none;
+}
+
+a:visited,
+a:link {
+    font-weight: normal;
+}
+
 a:hover,
 a:active {
     font-weight: bold;

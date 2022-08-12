@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
 }
 
 body {
@@ -42,6 +43,12 @@ a {
     animation: infinite colors 4s;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: none;
+    text-decoration: none;
+}
+
 a:visited,
 a:link {
     font-weight: normal;
@@ -70,7 +77,7 @@ ul > p {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-radius: 10em;
     padding: 0.4em;
-    margin: 1.4em 0;
+    margin: 1.4em;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 

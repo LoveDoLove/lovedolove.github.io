@@ -4,42 +4,32 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.cursor {
-    z-index: 999;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%) scale(0);
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    border: 2px solid yellow;
-    animation: scale-up .6s;
+header {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.cursor::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
-    border: 2px solid yellow;
+#maintitle {
+    display:  inline-block;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: yellow;
+    animation: infinite colors 4s;
+    padding: 0.3em 0.6em;
+    border: 1px solid #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
 
-@keyframes scale-up {
+@keyframes colors {
     0% {
-        transform: translate(-50%, -50%) scale(0);
-        opacity: 1;
+        filter: hue-rotate(0deg);
     }
-
-    50% {
-        opacity: 1;
-    }
-
     100% {
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 0;
+        filter: hue-rotate(360deg);
     }
 }

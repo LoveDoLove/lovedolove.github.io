@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cursor {
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    animation: scale-up .6s;
+}
+
+.cursor::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+@keyframes scale-up {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}

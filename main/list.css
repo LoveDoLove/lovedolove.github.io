@@ -1,0 +1,74 @@
+/*Table Styles*/
+table {
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 1em;
+    background: linear-gradient(to bottom, rgb(190,215,255), black);
+    color: yellow;
+    animation: infinite colors 4s;
+    border: 5px solid;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+thead {
+    width: 80%;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+th, td {
+    text-align: center;
+    border: 3px solid;
+    line-height: 1.4em;
+    padding: 10px;
+ }
+
+ th {
+    background-color: black;
+    color: rgb(130, 210, 255);
+    font-weight: normal;
+ }
+
+ td {
+   font-size: 0.9em;
+   vertical-align: top;
+}
+
+/*Columns Styles*/
+col.appname {
+    width: 25%;
+ }
+
+col.applink {
+    width: 25%;
+ }
+
+ col.youtube {
+    width: 50%;
+ }
+
+ /* Table Header Styles */
+thead tr {
+    height: 60px;
+ }
+ 
+ thead tr:first-of-type tr:first-of-type {
+    font-size: 2em;
+ }
+ 
+ thead th {
+    background: linear-gradient(to top, rgb(11, 94, 230), black);
+ }
+
+@keyframes colors {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

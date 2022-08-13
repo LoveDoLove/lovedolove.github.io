@@ -32,8 +32,8 @@ header {
 
 a {
     text-decoration: none;
-    color: rgb(11, 94, 230);
-    animation: infinite colors 4s;
+    color: yellow;
+    animation: infinite colors 5s;
 }
 
 a:-webkit-any-link {

@@ -10,20 +10,12 @@ table {
     border: 5px solid;
 }
 
-thead {
-    width: 80%;
-}
-
-td {
-    text-align: center;
-    padding: 10px;
-}
-
 th, td {
     text-align: center;
     border: 3px solid;
     line-height: 1.4em;
     padding: 10px;
+    font-size: 0.9em;
 }
 
 th {
@@ -31,9 +23,8 @@ th {
     color: rgb(161, 255, 255);
 }
 
- td {
-   font-size: 0.9em;
-   vertical-align: top;
+td {
+    background: linear-gradient(to bottom, rgb(187, 255, 0), rgb(0, 255, 255));
 }
 
 /*Columns Styles*/
@@ -52,10 +43,6 @@ col.youtube {
  /* Table Header Styles */
 thead tr {
     height: 60px;
-}
- 
-thead tr:first-of-type tr:first-of-type {
-    font-size: 2em;
 }
 
 @keyframes colors {

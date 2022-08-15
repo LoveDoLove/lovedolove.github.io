@@ -29,7 +29,7 @@ td {
 
 /*Columns Styles*/
 col.appname {
-    width: 25%;
+    width: 20%;
 }
 
 col.applink {
@@ -37,7 +37,7 @@ col.applink {
 }
 
 col.youtube {
-    width: 50%;
+    width: 25%;
 }
 
  /* Table Header Styles */
@@ -52,4 +52,12 @@ thead tr {
     100% {
         filter: hue-rotate(360deg);
     }
+}
+
+/*Frame Youtube*/
+iframe {
+    width: 410px;
+    height: 231px;
+    left: 0px;
+    top: 0px;
 }

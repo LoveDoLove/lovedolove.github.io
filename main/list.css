@@ -50,19 +50,19 @@ col.youtube {
 
 /*Frame Youtube*/
 iframe {
-    width: auto;
-    height: auto;
+    width: 381px;
+    height: 214px;
 }
 
 /*Font Size*/
 thead th {
-    font-size: 1.7em;
+    font-size: 1em;
 }
 
 tbody th:first-of-type {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 td {
-    font-size: 20px;
+    font-size: 1em;
 }

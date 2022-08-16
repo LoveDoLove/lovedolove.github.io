@@ -6,7 +6,7 @@ table {
     border-radius: 1em;
     background: linear-gradient(to bottom, rgb(190,215,255), rgb(0, 0, 0));
     color: yellow;
-    animation: infinite colors 4s;
+    animation: infinite colors 10s;
     border: 5px solid;
 }
 
@@ -18,7 +18,7 @@ th, td {
 }
 
 th {
-    background: linear-gradient(to top, rgb(11, 94, 230), rgb(49, 45, 45));
+    background: linear-gradient(to top, rgb(44, 40, 247), rgb(49, 45, 45));
     color: rgb(161, 255, 255);
 }
 
@@ -52,6 +52,17 @@ col.youtube {
 iframe {
     width: 381px;
     height: 214px;
+}
+
+td#novideo {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+    width: 381px;
+    height: 214px;
+}
+
+#novideo > p {
+    color: white;
+    font-size: 2em;
 }
 
 /*Font Size*/

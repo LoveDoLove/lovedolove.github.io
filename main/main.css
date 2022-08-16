@@ -10,24 +10,13 @@ body {
     background-size: cover;
 }
 
-header {
-    margin: 1em;
+h1#maintitle {
     text-align: center;
-    align-items: center;
-}
-
-#maintitle {
     font-size: 1.4em;
-    display: inline-block;
     font-weight: bold;
-    border-radius: 1em;
-    background-color: #000a;
     color: yellow;
     animation: infinite colors 4s;
     padding: 0.3em 0.6em;
-    border: 1px solid #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
 
 a {

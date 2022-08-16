@@ -15,7 +15,6 @@ th, td {
     border: 3px solid;
     line-height: 1.4em;
     padding: 10px;
-    font-size: 0.9em;
 }
 
 th {
@@ -24,7 +23,6 @@ th {
 }
 
 td {
-    font-size: 2em;
     background: linear-gradient(to bottom, rgb(187, 255, 0), rgb(0, 255, 255));
 }
 
@@ -52,10 +50,8 @@ col.youtube {
 
 /*Frame Youtube*/
 iframe {
-    width: 410px;
-    height: 231px;
-    left: 0px;
-    top: 0px;
+    width: auto;
+    height: auto;
 }
 
 /*Font Size*/
@@ -65,4 +61,8 @@ thead th {
 
 tbody th:first-of-type {
     font-size: 1.4em;
+}
+
+td {
+    font-size: 20px;
 }

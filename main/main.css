@@ -14,6 +14,12 @@ body, html {
 body {
     background: url(/../pics/bg.jpg) repeat center center fixed;
     background-size: cover;
+    display: flex;
+    flex-flow: wrap row;
+    flex-direction: column row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h1#maintitle {
@@ -25,6 +31,7 @@ h1#maintitle {
     padding: 0.3em 0.6em;
 }
 
+/*Link*/
 a {
     color: yellow;
     animation: infinite colors 5s;
@@ -44,6 +51,7 @@ a:active {
     font-weight: bold;
 }
 
+/*Color*/
 @keyframes colors {
     0% {
         filter: hue-rotate(0deg);

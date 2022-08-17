@@ -8,6 +8,9 @@ table {
     color: yellow;
     animation: infinite colors 10s;
     border: 5px solid;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
 }
 
 th, td {
@@ -24,6 +27,8 @@ th {
 
 td {
     background: linear-gradient(to bottom, rgb(187, 255, 0), rgb(0, 255, 255));
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 /*Columns Styles*/
@@ -49,20 +54,21 @@ col.youtube {
 }
 
 /*Frame Youtube*/
-iframe {
-    width: 381px;
-    height: 214px;
-}
-
 td#novideo {
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
-    width: 381px;
-    height: 214px;
 }
 
 #novideo > p {
     color: white;
-    font-size: 2em;
+    font-weight: bold;
+}
+
+.youtube {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.youtube a {
+    color: white;
 }
 
 /*Font Size*/
@@ -71,9 +77,5 @@ thead th {
 }
 
 tbody th:first-of-type {
-    font-size: 1em;
-}
-
-td {
     font-size: 1em;
 }

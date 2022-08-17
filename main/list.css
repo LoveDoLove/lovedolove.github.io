@@ -42,15 +42,6 @@ col.youtube {
     width: 35%;
 }
 
-@keyframes colors {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        filter: hue-rotate(360deg);
-    }
-}
-
 /*Frame Youtube*/
 td#novideo {
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
@@ -76,4 +67,24 @@ thead th {
 
 tbody th:first-of-type {
     font-size: 1em;
+}
+
+/*Flex*/
+tbody {
+display: flex inline-block;
+flex-direction: column row;
+flex-wrap: wrap row;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+/*Color*/
+@keyframes colors {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }

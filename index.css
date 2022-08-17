@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+    cursor: none;
+    text-decoration: none;
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
     min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -69,14 +75,11 @@ ul > li > a {
 }
 
 a {
-    text-decoration: none;
     animation: infinite colors 4s;
 }
 
 a:-webkit-any-link {
     color: -webkit-link;
-    cursor: none;
-    text-decoration: none;
 }
 
 a:visited,

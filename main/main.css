@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    cursor: none;
+    text-decoration: none;
 }
 
 body, html {
@@ -24,15 +26,12 @@ h1#maintitle {
 }
 
 a {
-    text-decoration: none;
     color: yellow;
     animation: infinite colors 5s;
 }
 
 a:-webkit-any-link {
     color: -webkit-link;
-    cursor: none;
-    text-decoration: none;
 }
 
 a:visited,

@@ -1,6 +1,6 @@
 /*Table Styles*/
 table {
-    width: 100%;
+    min-width: 100%;
     padding: 16px;
     margin: 0 auto;
     border-radius: 1em;
@@ -57,7 +57,7 @@ td#novideo {
 }
 
 .youtube a {
-    color: white;
+    color: aqua;
 }
 
 /*Font Size*/
@@ -69,15 +69,7 @@ tbody th:first-of-type {
     font-size: 1em;
 }
 
-/*Flex*/
-tbody {
-display: flex inline-block;
-flex-direction: column row;
-flex-wrap: wrap row;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
+
 
 /*Color*/
 @keyframes colors {

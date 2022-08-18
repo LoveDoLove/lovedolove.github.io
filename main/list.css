@@ -80,10 +80,17 @@ tbody th:first-of-type {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 820px) {
     * {
-        margin: 0 auto;
+        margin: auto;
         text-align: center;
+        white-space: nowrap;
+    }
+
+    header {
+        margin-left: 80px;
+        margin-right: 100px;
+        padding: 0px;
         white-space: nowrap;
     }
 }

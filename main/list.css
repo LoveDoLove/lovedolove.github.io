@@ -80,10 +80,3 @@ tbody th:first-of-type {
         filter: hue-rotate(360deg);
     }
 }
-
-/*Device*/
-@media only screen and (max-width: 480px) {
-    table {
-        width: 100%;
-    }
-}

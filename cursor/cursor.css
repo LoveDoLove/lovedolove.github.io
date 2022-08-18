@@ -1,7 +1,3 @@
-html {
-    cursor: none;
-}
-
 .cursor {
     z-index: 999;
     position: fixed;

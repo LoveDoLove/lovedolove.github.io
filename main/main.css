@@ -31,6 +31,7 @@ h1#maintitle {
     padding: 0.3em 0.6em;
 }
 
+
 /*Link*/
 a {
     color: yellow;
@@ -50,6 +51,7 @@ a:hover,
 a:active {
     font-weight: bold;
 }
+
 
 /*Color*/
 @keyframes colors {

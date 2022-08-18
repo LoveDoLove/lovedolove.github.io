@@ -1,8 +1,8 @@
 /*Table Styles*/
 table {
-    min-width: 100%;
-    padding: 16px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
     border-radius: 1em;
     background: linear-gradient(to bottom, rgb(190,215,255), rgb(0, 0, 0));
     color: yellow;
@@ -14,7 +14,6 @@ table {
 }
 
 th, td {
-    text-align: center;
     border: 3px solid;
     line-height: 1.4em;
     padding: 10px;
@@ -83,6 +82,17 @@ tbody th:first-of-type {
     }
 }
 
-@media only screen and (min-width:720px) {
-    
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    table {
+        flex-direction: column;
+        white-space: 0;
+        font-size: 2em;
+    }
+
+    td, th {
+        white-space: nowrap;
+    }
 }

@@ -82,17 +82,10 @@ tbody th:first-of-type {
     }
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 2em;
-    }
-    table {
-        flex-direction: column;
-        white-space: 0;
-        font-size: 2em;
-    }
-
-    td, th {
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0 auto;
+        text-align: center;
         white-space: nowrap;
     }
 }

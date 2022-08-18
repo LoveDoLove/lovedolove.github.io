@@ -29,6 +29,7 @@ td {
     background: linear-gradient(to bottom, rgb(187, 255, 0), rgb(0, 255, 255));
 }
 
+
 /*Columns Styles*/
 col.appname {
     width: 25%;
@@ -41,6 +42,7 @@ col.applink {
 col.youtube {
     width: 35%;
 }
+
 
 /*Frame Youtube*/
 td#novideo {
@@ -60,6 +62,7 @@ td#novideo {
     color: aqua;
 }
 
+
 /*Font Size*/
 thead th {
     font-size: 1em;
@@ -68,7 +71,6 @@ thead th {
 tbody th:first-of-type {
     font-size: 1em;
 }
-
 
 
 /*Color*/

@@ -68,32 +68,3 @@ thead th {
 tbody th:first-of-type {
     font-size: 1em;
 }
-
-
-/*Color*/
-@keyframes colors {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        filter: hue-rotate(360deg);
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    * {
-        margin: auto;
-        white-space: nowrap;
-    }
-
-    header {
-        margin-left: 80px;
-        margin-right: 100px;
-        padding: 0px;
-        white-space: nowrap;
-    }
-
-    table {
-        text-align: center;
-    }
-}

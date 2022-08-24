@@ -1,0 +1,17 @@
+@media only screen and (max-width: 820px) {
+    * {
+        margin: auto;
+        white-space: nowrap;
+    }
+
+    header {
+        margin-left: 80px;
+        margin-right: 100px;
+        padding: 0px;
+        white-space: nowrap;
+    }
+
+    table {
+        text-align: center;
+    }
+}

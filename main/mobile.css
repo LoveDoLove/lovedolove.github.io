@@ -21,6 +21,7 @@
     }
 
     table {
+        padding: 14px;
         width: min-content;
         text-align: center;
     }

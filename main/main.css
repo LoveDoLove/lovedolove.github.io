@@ -32,10 +32,7 @@ a:active {
 
 
 /*Frame Youtube*/
-.youtube {
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
-}
-
-.youtube a {
-    color: aqua;
+a.youtube {
+    color: rgb(0, 119, 255);
+    animation: infinite colors 5s;
 }

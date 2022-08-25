@@ -25,7 +25,3 @@ li {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-radius: 10em;
 }
-
-p, li {
-    color: white;
-}

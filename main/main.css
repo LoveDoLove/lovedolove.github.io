@@ -1,35 +1,19 @@
 * {
-    margin: auto;
-    clear: both;
-    box-sizing: border-box;
     cursor: none;
-    text-decoration: none;
 }
 
-body, html {
-    min-height: 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body {
+html {
     background: url(/../pics/bg.jpg) repeat center center fixed;
     background-size: cover;
-}
-
-h1#maintitle {
-    text-align: center;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: yellow;
-    animation: infinite colors 4s;
-    padding: 0.3em 0.6em;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 
 /*Link*/
 a {
-    color: yellow;
-    animation: infinite colors 5s;
+    color: red;
+    text-decoration: none;
 }
 
 a:-webkit-any-link {
@@ -44,4 +28,14 @@ a:link {
 a:hover,
 a:active {
     font-weight: bold;
+}
+
+
+/*Frame Youtube*/
+.youtube {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.youtube a {
+    color: aqua;
 }

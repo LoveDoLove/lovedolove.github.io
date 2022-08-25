@@ -12,12 +12,9 @@ html {
 
 /*Link*/
 a {
-    color: red;
+    color: yellow;
     text-decoration: none;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
+    animation: infinite colors 10s;
 }
 
 a:visited,

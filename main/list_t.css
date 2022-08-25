@@ -12,9 +12,11 @@ div:not(.cursor) {
     float: left;
     padding: 20px;
     margin: 10px;
+    line-break: auto;
 }
 
 li::first-line {
+    position: relative;
     font-size: 20px;
     color:rgb(255, 0, 242);
 }

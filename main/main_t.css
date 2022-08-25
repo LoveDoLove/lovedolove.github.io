@@ -12,8 +12,8 @@ html {
 
 /*Link*/
 a {
-    color: aqua;
-    animation: infinite colors 5s;
+    animation: none;
+    text-decoration: none;
 }
 
 a:-webkit-any-link {
@@ -32,15 +32,6 @@ a:active {
 
 
 /*Frame Youtube*/
-#novideo {
-    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
-}
-
-#novideo > p {
-    color: white;
-    font-weight: bold;
-}
-
 .youtube {
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
 }

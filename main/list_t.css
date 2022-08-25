@@ -1,0 +1,70 @@
+/*Table Styles*/
+table {
+    padding: 14px;
+    border-radius: 1em;
+    background: linear-gradient(to bottom, rgb(190,215,255), rgb(0, 0, 0));
+    color: yellow;
+    animation: infinite colors 10s;
+    border: 5px solid;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+th, td {
+    border: 3px solid;
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+th {
+    background: linear-gradient(to top, rgb(44, 40, 247), rgb(49, 45, 45));
+    color: rgb(161, 255, 255);
+}
+
+td {
+    background: linear-gradient(to bottom, rgb(187, 255, 0), rgb(0, 255, 255));
+}
+
+
+/*Columns Styles*/
+col.appname {
+    width: 25%;
+}
+
+col.applink {
+    width: 15%;
+}
+
+col.youtube {
+    width: 35%;
+}
+
+
+/*Frame Youtube*/
+td#novideo {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+#novideo > p {
+    color: white;
+    font-weight: bold;
+}
+
+.youtube {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.youtube a {
+    color: aqua;
+}
+
+
+/*Font Size*/
+thead th {
+    font-size: 1em;
+}
+
+tbody th:first-of-type {
+    font-size: 1em;
+}

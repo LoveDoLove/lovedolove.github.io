@@ -12,7 +12,6 @@ div:not(.cursor) {
     float: left;
     padding: 20px;
     margin: 10px;
-    line-break: auto;
 }
 
 li::first-line {

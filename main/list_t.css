@@ -1,0 +1,31 @@
+#title {
+    text-align: center;
+    color: yellow;
+    animation: infinite colors 10s;
+}
+
+#heading {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 255, 234);
+    animation: infinite colors 10s;
+    background-color: rgba(255, 255, 255, 0.658);
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 10em;
+}
+
+li {
+    list-style: none;
+    background-color: aqua;
+    text-align: center;
+    animation: infinite colors 10s;
+    background-color: rgba(255, 255, 255, 0.658);
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 10em;
+}
+
+p, li {
+    color: white;
+}

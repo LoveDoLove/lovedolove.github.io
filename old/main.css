@@ -1,0 +1,47 @@
+* {
+    margin: auto;
+    clear: both;
+    box-sizing: border-box;
+    cursor: none;
+    text-decoration: none;
+}
+
+body, html {
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url(/../pics/bg.jpg) repeat center center fixed;
+    background-size: cover;
+}
+
+h1#maintitle {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: yellow;
+    animation: infinite colors 4s;
+    padding: 0.3em 0.6em;
+}
+
+
+/*Link*/
+a {
+    color: yellow;
+    animation: infinite colors 5s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+}
+
+a:visited,
+a:link {
+    font-weight: normal;
+}
+
+a:hover,
+a:active {
+    font-weight: bold;
+}

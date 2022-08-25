@@ -35,7 +35,7 @@
         display: none;
     }
 
-    tbody tr th:hover+td, tbody tr td:hover {
+    tbody tr th:hover+td, td:hover {
         display: block;
         position: absolute;
     }

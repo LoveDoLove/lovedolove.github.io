@@ -1,4 +1,50 @@
+* {
+    cursor: none;
+}
+
 html {
     background: url(/../pics/bg.jpg) repeat center center fixed;
     background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+/*Link*/
+a {
+    color: aqua;
+    animation: infinite colors 5s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+}
+
+a:visited,
+a:link {
+    font-weight: normal;
+}
+
+a:hover,
+a:active {
+    font-weight: bold;
+}
+
+
+/*Frame Youtube*/
+#novideo {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+#novideo > p {
+    color: white;
+    font-weight: bold;
+}
+
+.youtube {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.youtube a {
+    color: aqua;
 }

@@ -17,7 +17,7 @@ body {
 
 /*Link*/
 a {
-    color: yellow;
+    color: rgb(0, 255, 179);
     text-decoration: none;
     animation: infinite colors 10s;
 }
@@ -35,6 +35,6 @@ a:active {
 
 /*Frame Youtube*/
 a.youtube {
-    color: rgb(0, 119, 255);
+    color: rgb(89, 0, 255);
     animation: infinite colors 5s;
 }

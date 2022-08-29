@@ -26,8 +26,8 @@ div:not(.cursor) > li::first-line {
 
 /*Division Link*/
 div:not(.cursor) > li > a {
-    color: rgb(0, 255, 179);
     text-decoration: none;
+    color: rgb(0, 255, 179);
     animation: infinite colors 10s;
 }
 

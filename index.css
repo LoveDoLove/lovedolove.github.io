@@ -21,85 +21,27 @@ body {
     max-width: 320px;
     position: absolute;
     clear: both;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /*Header*/
 header {
-    margin-top: 1em;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
-/*Header Image*/
 header > img {
-    width:  6em;
+    width: 6em;
     height: 6em;
     border-radius: 100%;
-    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
-/*Header h1*/
 header > h1 {
-    display:  inline-block;
     font-size: 0.8em;
     font-weight: bold;
-    border-radius: 1em;
-    background-color: #000a;
-    color: yellow;
-    animation: infinite colors 4s;
     padding: 0.3em 0.6em;
     border: 1px solid #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-}
-
-ul {
-    box-sizing: border-box;
-    list-style: none;
-    margin: 0 auto;
-    padding: 1em;
-}
-
-ul > li {
-    background-color: #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    border-radius: 10em;
-    padding: 1em;
-    margin: 1.4em 0;
-    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
-}
-
-ul > li > a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-    text-decoration: none;
-    animation: infinite colors 4s;
-}
-
-ul > li > a:visited,
-ul > li > a:link {
-    font-weight: normal;
-}
-
-ul > li > a:hover,
-ul > li > a:active {
-    font-weight: bold;
-}
-
-p#intro {
+    border-radius: 1em;
     color: yellow;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5em;
-    animation: infinite colors 4s;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
+    background-color: #000a;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }

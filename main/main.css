@@ -1,7 +1,9 @@
+/*Whole Page*/
 * {
     cursor: none;
 }
 
+/*Html Size*/
 html {
     background: url(/../pics/bg.jpg) repeat center center fixed;
     background-size: cover;
@@ -13,34 +15,10 @@ html {
     clear: both;
 }
 
+/*Body Size*/
 body {
     min-width: 1024px;
     max-width: 320px;
     position: absolute;
     clear: both;
-}
-
-
-/*Link*/
-a {
-    color: rgb(0, 255, 179);
-    text-decoration: none;
-    animation: infinite colors 10s;
-}
-
-a:visited,
-a:link {
-    font-weight: normal;
-}
-
-a:hover,
-a:active {
-    font-weight: bold;
-}
-
-
-/*Frame Youtube*/
-a.youtube {
-    color: rgb(89, 0, 255);
-    animation: infinite colors 5s;
 }

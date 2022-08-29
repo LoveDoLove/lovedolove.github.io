@@ -6,7 +6,7 @@ header > h1#title {
 }
 
 /*Division*/
-div:not(.cursor) {
+div {
     background-color: rgba(255, 255, 255, 0.616);
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -15,34 +15,34 @@ div:not(.cursor) {
     margin: 3px;
 }
 
-div:not(.cursor) > li {
+div > li {
     list-style: none;
     text-align: center;
 }
 
-div:not(.cursor) > li::first-line {
+div > li::first-line {
     font-weight: bold;
 }
 
 /*Division Link*/
-div:not(.cursor) > li > a {
+div > li > a {
     text-decoration: none;
     color: rgb(0, 255, 179);
     animation: infinite colors 10s;
 }
 
-div:not(.cursor) > li > a:visited,
-div:not(.cursor) > li > a:link {
+div > li > a:visited,
+div > li > a:link {
     font-weight: normal;
 }
 
-div:not(.cursor) > li > a:hover,
-div:not(.cursor) > li > a:active {
+div > li > a:hover,
+div > li > a:active {
     font-weight: bold;
 }
 
 /*Frame Youtube*/
-div:not(.cursor) > li > a.youtube {
+div > li > a.youtube {
     color: rgb(89, 0, 255);
     animation: infinite colors 5s;
 }

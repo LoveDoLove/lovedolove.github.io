@@ -12,6 +12,7 @@ html {
 
 /*Header*/
 header > h1#title {
+    font-size: 30px;
     text-align: center;
     color: yellow;
     animation: infinite colors 10s;

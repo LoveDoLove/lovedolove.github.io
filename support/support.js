@@ -1,7 +1,7 @@
 //declare
 window.onload = init;
 window.onload = errorfunction;
-window.onload = novideo;
+window.onload = errorvideo;
 
 //forms
 function init() {
@@ -23,7 +23,7 @@ function errorfunction()
 }
 
 //when no video
-function novideo()
+function errorvideo()
 {
    document.getElementById("novideo").onclick = function() 
    {

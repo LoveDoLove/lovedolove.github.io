@@ -14,7 +14,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    width: 200px;
+    width: 210px;
 }
    
 /* The navlist container */
@@ -63,6 +63,10 @@
 /* Add a grey background color to navlist links on hover */
 .navcontent a:hover {
     background-color: #ddd;
+    border-style: solid;
+    border-bottom-color: coral;
+    border-width: 0px 0px 2px 0px;
+    font-weight: bold;
 }
    
 /* Show the navlist menu on hover */

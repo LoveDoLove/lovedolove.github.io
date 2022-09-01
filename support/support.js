@@ -2,22 +2,18 @@ window.onload = init;
 
 function init() {
    document.forms[0].onsubmit = function() {
-      if (this.checkValidity()) alert("Data passes initial validation tests");
+      if (this.checkValidity()) alert("Data passes");
       return false;
    }
    
-   document.getElementById("delivery").onclick = turnOnDelivery;
-   document.getElementById("pickup").onclick=turnOnPickup;
+   document.getElementById("xxx").onclick = turnOnA;
+   document.getElementById("xxx").onclick=turnOnB;
 }
 
-function turnOnDelivery() {
-   document.getElementById("addressBox").disabled=false;
-   document.getElementById("delBox").disabled=false;
-   document.getElementById("pickupBox").disabled=true;
+function turnOnA() {
+   document.getElementById("xxx").disabled=false;
 }
 
-function turnOnPickup() {
-   document.getElementById("addressBox").disabled=true;
-   document.getElementById("delBox").disabled=true;
-   document.getElementById("pickupBox").disabled=false;
+function turnOnB() {
+   document.getElementById("xxx").disabled=true;
 }

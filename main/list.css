@@ -39,8 +39,3 @@ div > li > a.youtube {
     color: rgb(89, 0, 255);
     animation: infinite colors 5s;
 }
-
-a#novideo {
-    cursor: pointer;
-    color: black;
-}

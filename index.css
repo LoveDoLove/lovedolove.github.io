@@ -80,11 +80,6 @@ p#intro {
     animation: infinite colors 4s;
 }
 
-a#error {
-    cursor: pointer;
-    color: black;
-}
-
 a:-webkit-any-link {
     color: -webkit-link;
 }

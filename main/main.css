@@ -1,6 +1,6 @@
 /*Html Size*/
 html {
-    background: url(/../pics/bg.jpg) repeat center center fixed;
+    background: url(/images/bg.jpg) repeat center center fixed;
     background-size: cover;
     margin: 0px auto;
     min-height: 100%;

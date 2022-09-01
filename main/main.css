@@ -10,10 +10,9 @@ html {
     clear: both;
 }
 
-/*Body Size*/
-body {
-    min-width: 1024px;
-    max-width: 320px;
-    position: absolute;
-    clear: both;
+/*Header*/
+header > h1#title {
+    text-align: center;
+    color: yellow;
+    animation: infinite colors 10s;
 }

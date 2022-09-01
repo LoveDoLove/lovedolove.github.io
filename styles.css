@@ -8,10 +8,10 @@ html {
 }
 
 body {
-  background-color: rgb(4, 238, 255);
+  /* background-color: rgb(4, 238, 255);
   box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px, inset rgb(51, 21, 21) 0px 0px 40px;
   border-left: 3px solid rgb(51, 51, 51);
-  border-right: 3px solid rgb(51, 51, 51);
+  border-right: 3px solid rgb(51, 51, 51); */
   min-height: 100%;  
   margin: 0px auto;
   min-width: 320px;

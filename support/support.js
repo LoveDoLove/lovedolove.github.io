@@ -1,5 +1,6 @@
 window.onload = init;
 window.onload = errorfunction;
+window.onload = novideo;
 
 
 function init() {
@@ -15,6 +16,15 @@ function errorfunction()
    document.getElementById("error").onclick = function() 
    {
       alert("Still In Developing...");
+      return true;
+   }
+}
+
+function novideo()
+{
+   document.getElementById("novideo").onclick = function() 
+   {
+      alert("Old Channel Got Banned\nSo Video Gone Already");
       return true;
    }
 }

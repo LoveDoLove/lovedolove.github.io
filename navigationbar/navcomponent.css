@@ -1,0 +1,46 @@
+/* The navcomponentlist container */
+.navcomponentlist {
+    float: left;
+    overflow: hidden;
+}
+   
+/* navcomponentlist button */
+.navcomponentlist .navcomponentbutton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+   
+/* navcomponentlist content (hidden by default) */
+.navcomponentcontent {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+   
+/* Links inside the navcomponentlist */
+.navcomponentcontent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+   
+/* Add a grey background color to navcomponentlist links on hover */
+.navcomponentcontent a:hover {
+    background-color: #ddd;
+}
+   
+/* Show the navcomponentlist menu on hover */
+.navcomponentlist:hover .navcomponentcontent {
+    display: block;
+}

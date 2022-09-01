@@ -41,6 +41,6 @@ div > li > a.youtube {
 }
 
 a#novideo {
-    cursor: not-allowed;
+    cursor: pointer;
     color: black;
 }

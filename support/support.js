@@ -1,8 +1,9 @@
+//declare
 window.onload = init;
 window.onload = errorfunction;
 window.onload = novideo;
 
-
+//forms
 function init() {
    document.forms[0].onsubmit = function() {
       if (this.checkValidity()) alert("Data passes");
@@ -11,6 +12,7 @@ function init() {
    document.getElementById("xxx").onclick=turnOnB;
 }
 
+//when error clicked
 function errorfunction()
 {
    document.getElementById("error").onclick = function() 
@@ -20,6 +22,7 @@ function errorfunction()
    }
 }
 
+//when no video
 function novideo()
 {
    document.getElementById("novideo").onclick = function() 
@@ -29,10 +32,12 @@ function novideo()
    }
 }
 
-function turnOnA() {
+
+//backup
+function example() {
    document.getElementById("xxx").disabled=false;
 }
 
-function turnOnB() {
+function example() {
    document.getElementById("xxx").disabled=true;
 }

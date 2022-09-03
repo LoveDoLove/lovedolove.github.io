@@ -1,4 +1,4 @@
-/* paragraph */
-p {
-    display: flex;
+/* Division */
+div > li {
+    background-color: yellow;
 }

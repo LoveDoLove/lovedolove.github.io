@@ -1,41 +1,50 @@
-/*Division*/
-div {
+/* Division */
+div.listed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.application {
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.616);
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    border-radius: 2em;
-    padding: 10px;
-    margin: 3px;
 }
 
-div > li {
+div.application > li {
     list-style: none;
-    text-align: center;
 }
 
-div > li::first-line {
+div.application > li::first-line {
     font-weight: bold;
 }
 
-/*Division Link*/
-div > li > a {
+div.application > li > a {
+    color: rgb(4, 0, 255);
+    animation: infinite colors 5s;
     text-decoration: none;
-    color: rgb(0, 255, 179);
-    animation: infinite colors 10s;
 }
 
-div > li > a:visited,
-div > li > a:link {
+div.application > li > a:visited,
+div.application > li > a:link {
     font-weight: normal;
 }
 
-div > li > a:hover,
-div > li > a:active {
+div.application > li > a:hover,
+div.application > li > a:active {
     font-weight: bold;
 }
 
-/*Frame Youtube*/
-div > li > a.youtube {
-    color: rgb(89, 0, 255);
-    animation: infinite colors 5s;
+div.application > li > a.youtube {
+    color: rgb(255, 0, 242);
+    animation: infinite colors 2s;
+    text-decoration: none;
 }

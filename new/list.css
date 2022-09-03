@@ -1,4 +1,8 @@
 /* Division */
+div.goleft {
+    float: left;
+}
+
 div > li {
     background-color: yellow;
 }

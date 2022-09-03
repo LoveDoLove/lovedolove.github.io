@@ -6,15 +6,8 @@ html {
 
 /* Body */
 body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     margin: 10px;
     padding: 10px;
-    align-items: center;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 /*Header*/
@@ -24,4 +17,5 @@ header > h1.title {
     animation: infinite colors 8s;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }

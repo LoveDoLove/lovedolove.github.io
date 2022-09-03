@@ -1,8 +1,35 @@
 /* Division */
-div.goleft {
-    float: left;
+div.listed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-div > li {
-    background-color: yellow;
+div.application {
+    text-align: center !important;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+div.application > li {
+    list-style: none;
+}
+
+div.application > li > a {
+    color: aqua;
+    text-decoration: none;
+}
+
+div.application > li > a.youtube {
+    color: purple;
+    animation: infinite colors 10s;
+    text-decoration: none;
 }

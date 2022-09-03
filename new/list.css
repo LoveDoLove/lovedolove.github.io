@@ -9,7 +9,7 @@ div.listed {
 }
 
 div.application {
-    text-align: center !important;
+    text-align: center;
     width: 300px;
     margin: 10px;
     padding: 10px;
@@ -24,12 +24,13 @@ div.application > li {
 }
 
 div.application > li > a {
-    color: aqua;
+    color: rgb(4, 0, 255);
+    animation: infinite colors 5s;
     text-decoration: none;
 }
 
 div.application > li > a.youtube {
-    color: purple;
-    animation: infinite colors 10s;
+    color: rgb(255, 0, 242);
+    animation: infinite colors 2s;
     text-decoration: none;
 }

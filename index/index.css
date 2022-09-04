@@ -46,7 +46,6 @@ div.bodylist {
 }
 
 div.bodylist > div.list {
-    margin: 10px;
     padding: 10px;
 }
 
@@ -57,8 +56,8 @@ div.bodylist > div.list > li {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 5px;
+    padding: 15px;
+    margin: 10px;
     list-style: none;
     background-color: #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -80,5 +79,16 @@ div.bodylist > div.list > li > a:active {
 
 /* Footer */
 footer {
+    margin: 10px;
+    color: rgb(32, 218, 141);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2em;
     text-align: center;
+    animation: infinite colors 5s;
+}
+
+/* Error */
+#error {
+    cursor: pointer;
 }

@@ -34,7 +34,6 @@ header > h1 {
     color: aqua;
     animation: infinite colors 8s;
     padding: 0.3em 0.6em;
-    border: 1px solid #fffa;
     border-radius: 1em;
     background-color: #000a;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -47,12 +46,6 @@ div.bodylist {
 }
 
 div.bodylist > div.list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: flex-start;
     margin: 10px;
     padding: 10px;
 }
@@ -60,10 +53,32 @@ div.bodylist > div.list {
 div.bodylist > div.list > li {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
+    list-style: none;
+    background-color: #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 10em;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+div.bodylist > div.list > li > a {
+    text-decoration: none;
+    color: rgb(185, 255, 79);
+    animation: infinite colors 5s;
+}
+
+div.bodylist > div.list > li > a:hover,
+div.bodylist > div.list > li > a:active {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
 }

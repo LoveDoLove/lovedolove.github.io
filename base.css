@@ -39,15 +39,3 @@ nav a {
    text-decoration: none;
 }
 
-footer {
-	color: rgb(249, 233, 233);
-	background-color: #333;
-	font-size: 0.9em;
-	padding: 10px 0px;
-	text-align: center;
-   text-decoration: dashed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-}
-

@@ -30,6 +30,7 @@ header > img {
 }
 
 header > h1 {
+    margin: 10px;
     font-size: 0.8em;
     color: aqua;
     animation: infinite colors 8s;

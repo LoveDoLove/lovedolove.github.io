@@ -1,89 +1,93 @@
-/*Html Size*/
 html {
     background: url(/images/bg.jpg) repeat center center fixed;
     background-size: cover;
 }
 
-/*Header*/
-header {
-    margin-top: 1em;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+/* Body */
+div.pagebody {
+    padding: 10px;
 }
 
-/*Header Image*/
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
 header > img {
+    margin: 10px;
     width:  6em;
     height: 6em;
     border-radius: 100%;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
-/*Header h1*/
 header > h1 {
-    display:  inline-block;
+    margin: 10px;
     font-size: 0.8em;
-    font-weight: bold;
+    color: aqua;
+    animation: infinite colors 8s;
+    padding: 0.3em 0.6em;
     border-radius: 1em;
     background-color: #000a;
-    color: yellow;
-    animation: infinite colors 4s;
-    padding: 0.3em 0.6em;
-    border: 1px solid #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
 
-
-/* For ul list */
-ul {
-    box-sizing: border-box;
-    list-style: none;
-    margin: 0 auto;
-    padding: 1em;
+/* List body */
+div.bodylist {
+    padding: 10px;
 }
 
-ul > li {
+div.bodylist > div.list {
+    padding: 10px;
+}
+
+div.bodylist > div.list > li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    list-style: none;
     background-color: #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-radius: 10em;
-    padding: 1em;
-    margin: 1.4em 0;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
-/* For ul link */
-ul > li > a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
+div.bodylist > div.list > li > a {
     text-decoration: none;
-    animation: infinite colors 4s;
+    color: rgb(185, 255, 79);
+    animation: infinite colors 5s;
 }
 
-ul > li > a:visited,
-ul > li > a:link {
-    font-weight: normal;
-}
-
-ul > li > a:hover,
-ul > li > a:active {
+div.bodylist > div.list > li > a:hover,
+div.bodylist > div.list > li > a:active {
     font-weight: bold;
 }
 
-/* Intro */
-p#intro {
-    color: yellow;
+/* Footer */
+footer {
+    margin: 10px;
+    color: rgb(32, 218, 141);
     font-weight: bold;
+    font-size: 20px;
+    border-radius: 2em;
     text-align: center;
-    font-size: 1.5em;
-    animation: infinite colors 4s;
+    animation: infinite colors 5s;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
+/* Error */
+#error {
+    cursor: pointer;
 }

@@ -66,6 +66,12 @@ div.bodylist > div.list > li {
 }
 
 div.bodylist > div.list > li > a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
     text-decoration: none;
     color: rgb(185, 255, 79);
     animation: infinite colors 5s;

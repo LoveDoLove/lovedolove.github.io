@@ -94,6 +94,6 @@ footer {
 }
 
 /* Error */
-#error1, #error2 {
+#error {
     cursor: pointer;
 }

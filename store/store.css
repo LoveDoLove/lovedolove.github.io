@@ -1,0 +1,42 @@
+html {
+    background: url(/images/bg.jpg) repeat center center fixed;
+    background-size: cover;
+}
+
+div.pagebody {
+    padding: 10px;
+}
+
+/* Page Header */
+div.pageheader {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+}
+
+div.pageheader > div.title,
+div.pageheader > div.logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+}
+
+div.pageheader > div.title > h1 {
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+}
+
+div.pageheader > div.logo > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+}

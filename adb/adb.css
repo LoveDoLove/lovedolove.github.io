@@ -68,3 +68,7 @@ div.content > button > a:active {
 div.content > img {
     width: 100%;
 }
+
+div.content > video {
+    width: 45%;
+}

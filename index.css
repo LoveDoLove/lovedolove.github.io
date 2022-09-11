@@ -73,8 +73,7 @@ div.bodylist > div.list > li > a {
     justify-content: center;
     align-items: stretch;
     text-decoration: none;
-    color: rgb(185, 255, 79);
-    animation: infinite colors 5s;
+    color: black;
 }
 
 div.bodylist > div.list > li > a:hover,

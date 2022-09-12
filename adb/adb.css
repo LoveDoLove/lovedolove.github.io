@@ -10,11 +10,6 @@ body {
     -webkit-backdrop-filter: blur(5px) saturate(160%) contrast(180%);
 }
 
-/* Page Body */
-div.pagebody {
-    padding: 10px;
-}
-
 /* Page Content */
 div.pagecontent {
     display: flex;

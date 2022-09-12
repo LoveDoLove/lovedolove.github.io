@@ -3,19 +3,26 @@ html {
     background-size: cover;
 }
 
-/* Page Body */
-div.pagebody {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 100px;
+body {
+    border-radius: 2%;
     background-color: rgba(255, 255, 255, 0.616);
     backdrop-filter: blur(5px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(5px) saturate(160%) contrast(180%);
 }
 
+/* Page Body */
+div.pagebody {
+    padding: 10px;
+}
+
 /* Page Content */
 div.pagecontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 10px;
 }
@@ -23,10 +30,10 @@ div.pagecontent {
 div.content {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 10px;
 }
@@ -35,7 +42,6 @@ div.content > h2 {
     padding: 10px;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    text-align: center;
     text-decoration: underline;
 }
 
@@ -46,12 +52,10 @@ div.content > button {
     background: none;
     border-radius: 100px;
     border: 2px solid black;
-    text-align: center;
 }
 
 div.content > button > a {
     font-size: 16px;
-    text-align: center;
     text-decoration: none;
     color: rgb(0, 4, 255);
 }

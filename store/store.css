@@ -31,3 +31,7 @@ div.title {
     text-align: center;
     text-decoration: underline;
 }
+
+div.content {
+    text-align: left;
+}

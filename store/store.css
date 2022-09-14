@@ -47,3 +47,13 @@ footer.ending {
 footer.ending > h2 {
     text-decoration: underline;
 }
+
+footer.ending > h4 > a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+footer.ending > h4 > a:hover,
+footer.ending > h4 > a:active {
+    color: rgb(0, 4, 255);
+}

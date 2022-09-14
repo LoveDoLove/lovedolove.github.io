@@ -74,13 +74,13 @@ div.bodylist > div.list > li > a {
     justify-content: center;
     align-items: stretch;
     text-decoration: none;
-    color: rgb(51, 255, 0);
-    animation: infinite 10s colors;
+    color: rgb(0, 0, 0);
 }
 
 div.bodylist > div.list > li > a:hover,
 div.bodylist > div.list > li > a:active {
     font-weight: bold;
+    color: rgb(4, 0, 255);
 }
 
 /* Footer */

@@ -35,3 +35,15 @@ div.title {
 div.content {
     text-align: left;
 }
+
+div.content > li > h2 {
+    text-decoration: underline;
+}
+
+footer.ending {
+    text-align: center;
+}
+
+footer.ending > h2 {
+    text-decoration: underline;
+}

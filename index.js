@@ -2,6 +2,7 @@ window.onload = startup;
 
 function startup()
 {
+   var tag = document.getElementById("tag");
    var yt = document.getElementById("youtube");
    var git = document.getElementById("github");
    var twitter = document.getElementById("twitter");
@@ -24,6 +25,7 @@ function startup()
    adb.addEventListener("click", i);
    support.addEventListener("click", j);
 
+   tag.innerText = "@LoveDoLove";
    yt.innerText = "Youtube";
    git.innerText = "Github";
    twitter.innerText = "Twitter";

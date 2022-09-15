@@ -58,6 +58,19 @@ div.send {
     padding: 3px;
 }
 
+div.send > input {
+    cursor: pointer;
+    width: 16%;
+    font-size: 20px;
+    color: rgb(82, 243, 95);
+    background: linear-gradient(to left, purple, red);
+}
+
+div.send > input:hover,
+div.send > input:active {
+    font-weight: bold;
+}
+
 label {
     font-size: 20px;
     font-weight: bold;

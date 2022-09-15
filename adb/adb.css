@@ -61,3 +61,8 @@ div.content > img {
 div.content > video {
     width: 45%;
 }
+
+/* Cursor */
+a {
+    cursor: pointer;
+}

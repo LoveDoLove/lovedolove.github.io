@@ -53,6 +53,8 @@ return t
 function start()
 {
    var submit = document.getElementById("submit");
+   var aa = Base64.encode("Please enter username!!!");
+   console.log(aa);
    submit.addEventListener("click", check, true);
 }
 
@@ -63,9 +65,8 @@ function check()
    var phone = document.getElementById("phone");
    var titlequestion = document.getElementById("titlequestion");
 
-
    if (user.value == "") {
-      alert("Please enter username!!!");
+      alert(Base64.decode("UGxlYXNlIGVudGVyIHVzZXJuYW1lISEh"));
    }
    else if (email.value == "")
    {

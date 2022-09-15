@@ -64,18 +64,6 @@ function startup()
    var adb = document.getElementById("adb");
    var support = document.getElementById("support");
 
-   var t1 = Base64.decode('QExvdmVEb0xvdmU=');
-   var t2 = Base64.decode('WW91dHViZQ==');
-   var t3 = Base64.decode('R2l0aHVi');
-   var t4 = Base64.decode('VHdpdHRlcg==');
-   var t5 = Base64.decode('RGlzY29yZA==');
-   var t6 = Base64.decode('VGVsZWdyYW0=');
-   var t7 = Base64.decode('RG9uYXRl');
-   var t8 = Base64.decode('Q2xpY2sgVG8gU3RhcnQgVXNpbmcgVGhlIFdlYnNpdGU=');
-   var t9 = Base64.decode('TG92ZURvTG92ZSBTdG9yZQ==');
-   var t10 = Base64.decode('QURCIFR1dG9yaWFs');
-   var t11 = Base64.decode('U3VwcG9ydA==');
-
    yt.addEventListener("click", a);
    git.addEventListener("click", b);
    twitter.addEventListener("click", c);
@@ -87,78 +75,65 @@ function startup()
    adb.addEventListener("click", i);
    support.addEventListener("click", j);
 
-   tag.innerText = t1;
-   yt.innerText = t2;
-   git.innerText = t3;
-   twitter.innerText = t4;
-   dc.innerText = t5;
-   telegram.innerText = t6;
-   donate.innerText = t7;
-   main.innerText = t8;
-   store.innerText = t9;
-   adb.innerText = t10;
-   support.innerText = t11;
+   tag.innerText = Base64.decode('QExvdmVEb0xvdmU=');
+   yt.innerText = Base64.decode('WW91dHViZQ==');
+   git.innerText = Base64.decode('R2l0aHVi');
+   twitter.innerText = Base64.decode('VHdpdHRlcg==');
+   dc.innerText = Base64.decode('RGlzY29yZA==');
+   telegram.innerText = Base64.decode('VGVsZWdyYW0=');
+   donate.innerText = Base64.decode('RG9uYXRl');
+   main.innerText = Base64.decode('Q2xpY2sgVG8gU3RhcnQgVXNpbmcgVGhlIFdlYnNpdGU=');
+   store.innerText = Base64.decode('TG92ZURvTG92ZSBTdG9yZQ==');
+   adb.innerText = Base64.decode('QURCIFR1dG9yaWFs');
+   support.innerText = Base64.decode('U3VwcG9ydA==');
 }
 
 function a()
 {
-   var a = Base64.decode('aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ2g2WnYzc2ZyYVdoTGlyOW5DWFQ3bnc=');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ2g2WnYzc2ZyYVdoTGlyOW5DWFQ3bnc='));
 }
 
 function b()
 {
-   var a = Base64.decode('aHR0cHM6Ly9naXRodWIuY29tL0xvdmVEb0xvdmU=');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly9naXRodWIuY29tL0xvdmVEb0xvdmU='));
 }
 
 function c()
 {
-   var a = Base64.decode('aHR0cHM6Ly90d2l0dGVyLmNvbS9Mb3ZlRG9Mb3ZlMQ==');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly90d2l0dGVyLmNvbS9Mb3ZlRG9Mb3ZlMQ=='));
 }
 
 function d()
 {
-   var a = Base64.decode('aHR0cHM6Ly9kaXNjb3JkLmdnLzRiNHVETXFWQ3k=');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly9kaXNjb3JkLmdnLzRiNHVETXFWQ3k='));
 }
 
 function e()
 {
-   var a = Base64.decode('aHR0cHM6Ly90Lm1lL0xvdmVEb0xvdmVDaGF0c0dyb3Vw');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly90Lm1lL0xvdmVEb0xvdmVDaGF0c0dyb3Vw'));
 }
 
 function f()
 {
-   var a = Base64.decode('aHR0cHM6Ly9iaXQubHkvMzFlVEVYaA==');
-   window.open(a);
+   window.open(Base64.decode('aHR0cHM6Ly9iaXQubHkvMzFlVEVYaA=='));
 }
 
 function g()
 {
-   var a = Base64.decode('L21haW4vbWFpbi5odG1s');
-   var openMain = document.src = a;
-   window.open(openMain);
+   window.open(document.src = Base64.decode('L21haW4vbWFpbi5odG1s'));
 }
 
 function h()
 {
-   var a = Base64.decode('L3N0b3JlL3N0b3JlLmh0bWw=');
-   var openStore = document.src = a;
-   window.open(openStore);
+   window.open(document.src = Base64.decode('L3N0b3JlL3N0b3JlLmh0bWw='));
 }
 
 function i()
 {
-   var a = Base64.decode('L2FkYi9hZGIuaHRtbA==');
-   var openAdb = document.src = a;
-   window.open(openAdb);
+   window.open(document.src = Base64.decode('L2FkYi9hZGIuaHRtbA=='));
 }
 
 function j()
 {
-   var a = Base64.decode('U2lsbCBpbiBkZXZlbG9waW5nLi4u');
-   window.alert(a);
+   window.alert(Base64.decode('U2lsbCBpbiBkZXZlbG9waW5nLi4u'));
 }

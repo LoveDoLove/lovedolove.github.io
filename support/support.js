@@ -53,8 +53,6 @@ return t
 function start()
 {
    var submit = document.getElementById("submit");
-   var aa = Base64.encode("Please enter username!!!");
-   console.log(aa);
    submit.addEventListener("click", check, true);
 }
 
@@ -70,15 +68,20 @@ function check()
    }
    else if (email.value == "")
    {
-      alert("Please enter email!!!");
+      alert(Base64.decode("UGxlYXNlIGVudGVyIGVtYWlsISEh"));
    }
    else if (phone.value.length < 7)
    {
-      alert("Please enter phone number!!!");
+      alert(Base64.decode("UGxlYXNlIGVudGVyIHBob25lIG51bWJlciEhIQ=="));
    }
    else if (titlequestion.value == "")
    {
-      alert("Please enter question title!!!");
+      alert(Base64.decode("UGxlYXNlIGVudGVyIHF1ZXN0aW9uIHRpdGxlISEh"));
+   }
+   else
+   {
+      var submit = document.getElementById("submit");
+      submit.addEventListener("click", a);
    }
 }
 

@@ -53,11 +53,36 @@ return t
 function start()
 {
    var submit = document.getElementById("submit");
-   submit.addEventListener("click", a);
+   submit.addEventListener("click", check, true);
+}
+
+function check()
+{
+   var user = document.getElementById("username");
+   var email = document.getElementById("email");
+   var phone = document.getElementById("phone");
+   var titlequestion = document.getElementById("titlequestion");
+
+
+   if (user.value == "") {
+      alert("Please enter username!!!");
+   }
+   else if (email.value == "")
+   {
+      alert("Please enter email!!!");
+   }
+   else if (phone.value.length < 7)
+   {
+      alert("Please enter phone number!!!");
+   }
+   else if (titlequestion.value == "")
+   {
+      alert("Please enter question title!!!");
+   }
 }
 
 function a()
 {
    var a = Base64.decode('U3RpbGwgaW4gZGV2ZWxvcGluZy4uLg==');
-   window.alert(a);
+   alert(a);
 }

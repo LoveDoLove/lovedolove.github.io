@@ -53,6 +53,11 @@ div.formcontent {
     padding: 3px;
 }
 
+div.send {
+    margin: 3px;
+    padding: 3px;
+}
+
 label {
     font-size: 20px;
     font-weight: bold;

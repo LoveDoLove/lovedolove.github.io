@@ -17,24 +17,27 @@
                 <div class="legend"><legend>Email Us</legend></div>
                 <div class="formcontent">
                     <label for="username">Username : </label>
-                    <input type="text" id="username" name="username">
+                    <input type="text" id="username" name="username" placeholder="LoveDoLove" required>
                 </div>
                 <div class="formcontent">
                     <label for="email">Email : </label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" placeholder="xxx@gmail.com" pattern="^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$" required>
                 </div>
                 <div class="formcontent">
                     <label for="phone">Phone Number : </label>
-                    <input type="tel" name="custPhone" id="phoneBox"
-                    placeholder="(nnn) nnn-nnnn"
-                    pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                    <input type="tel" name="phone" id="phone" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
                 </div>
                 <div class="formcontent">
-                    <label for="question">Put your question</label>
-                    <textarea name="question" id="question" cols="50" rows="10"></textarea>
+                    <label for="titlequestion">Question Title : </label>
+                    <input type="text" id="titlequestion" name="titlequestion" placeholder="Title" required>
                 </div>
-                <div>
-                    <input type="button" value="Submit" id="submit">
+                <div class="formcontent">
+                    <label for="question">Question Content Here : </label>
+                    <textarea name="question" id="question"
+                    cols="50" rows="10" placeholder="I want ask somethings"></textarea>
+                </div>
+                <div class="send">
+                    <input type="submit" value="Submit" id="submit">
                     <input type="reset" value="Clear">
                 </div>
             </form>

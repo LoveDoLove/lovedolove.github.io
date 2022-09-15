@@ -52,11 +52,12 @@ return t
 
 function start()
 {
-   var tag = document.getElementById("tag");
+   var submit = document.getElementById("submit");
+   submit.addEventListener("click", a);
+}
 
-   var t1 = Base64.decode('QExvdmVEb0xvdmU=');
-
-   yt.addEventListener("click", a);
-
-   tag.innerText = t1;
+function a()
+{
+   var a = Base64.decode('U3RpbGwgaW4gZGV2ZWxvcGluZy4uLg==');
+   window.alert(a);
 }

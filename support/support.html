@@ -5,12 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="/base.css">
-    <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="support.css">
     <script src="support.js"></script>
 </head>
 <body>
-
+    <div class="pagebody">
+        <div class="title">Welcome to support page</div>
+        <div class="content">
+            <form action="mailto:chongjx-wm22@student.tarc.edu.my" method="post" target="_blank">
+                <div><legend>Email Us</legend></div>
+                <div class="name">
+                    <label for="username">Username : </label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="email">
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone Number : </label>
+                    <input type="tel" name="custPhone" id="phoneBox"
+                    placeholder="(nnn) nnn-nnnn"
+                    pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" >
+                </div>
+                <div class="question">
+                    <label for="question">Put your question</label>
+                    <textarea name="question" id="question" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

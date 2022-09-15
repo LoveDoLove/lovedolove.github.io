@@ -135,5 +135,5 @@ function i()
 
 function j()
 {
-   window.alert(Base64.decode('U2lsbCBpbiBkZXZlbG9waW5nLi4u'));
+   window.open(document.src = Base64.decode("L3N1cHBvcnQvc3VwcG9ydC5odG1s"));
 }

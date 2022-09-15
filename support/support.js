@@ -54,6 +54,22 @@ function start()
 {
    var submit = document.getElementById("submit");
    submit.addEventListener("click", check, true);
+
+   var a = document.getElementById("title");
+   var b = document.getElementById("legend");
+   var c = document.getElementById("username");
+   var d = document.getElementById("email");
+   var e = document.getElementById("phone");
+   var f = document.getElementById("titlequestion");
+   var g = document.getElementById("question");
+
+   a.innerText = Base64.decode("V2VsY29tZSBUbyBTdXBwb3J0IFBhZ2U=");
+   b.innerText = Base64.decode("RW1haWwgVXM=");
+   c.innerText = Base64.decode("VXNlcm5hbWUgOiA=");
+   d.innerText = Base64.decode("RW1haWwgOiA=");
+   e.innerText = Base64.decode("UGhvbmUgTnVtYmVyIDog");
+   f.innerText = Base64.decode("UXVlc3Rpb24gVGl0bGUgOiA=");
+   g.innerText = Base64.decode("UXVlc3Rpb24gQ29udGVudCBIZXJlIDog");
 }
 
 function check()

@@ -9,3 +9,13 @@ function asupport()
       return true;
    }
 }
+
+window.onload = timing;
+function timing()
+{
+   var Today = new Date();
+   thisDate = Today.getDate();
+   thisMonth = Today.getMonth();
+   thisYear = Today.getFullYear();
+   document.getElementById("todayTime").innerHTML = Today;
+}

@@ -83,6 +83,21 @@ div.bodylist > div.list > li > a:active {
     color: rgb(4, 0, 255);
 }
 
+/* Time */
+div.setTime {
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+div.setTime > li#todayTime {
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 20px;
+    animation: colors infinite 8s;
+}
+
 /* Footer */
 footer {
     margin: 10px;
@@ -92,9 +107,4 @@ footer {
     border-radius: 2em;
     text-align: center;
     animation: infinite colors 5s;
-}
-
-/* Error */
-#error {
-    cursor: pointer;
 }

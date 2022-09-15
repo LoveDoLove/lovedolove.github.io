@@ -11,6 +11,8 @@ function startup()
    var main = document.getElementById("main");
    var store = document.getElementById("store");
    var adb = document.getElementById("adb");
+   var support = document.getElementById("support");
+
    yt.addEventListener("click", a);
    git.addEventListener("click", b);
    twitter.addEventListener("click", c);
@@ -20,6 +22,18 @@ function startup()
    main.addEventListener("click", g);
    store.addEventListener("click", h);
    adb.addEventListener("click", i);
+   support.addEventListener("click", j);
+
+   yt.innerText = "Youtube";
+   git.innerText = "Github";
+   twitter.innerText = "Twitter";
+   dc.innerText = "Discord";
+   telegram.innerText = "Telegram";
+   donate.innerText = "Donate";
+   main.innerText = "Click To Start Using The Website";
+   store.innerText = "LoveDoLove Store";
+   adb.innerText = "ADB Tutorial";
+   support.innerText = "Support";
 }
 
 function a()
@@ -68,4 +82,9 @@ function i()
 {
    var openAdb = document.src = "/adb/adb.html";
    window.open(openAdb);
+}
+
+function j()
+{
+   window.alert("Sill in developing...");
 }

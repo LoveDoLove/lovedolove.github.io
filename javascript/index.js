@@ -1,6 +1,4 @@
 //for notice
-window.onload = asupport;
-
 function asupport()
 {
    document.getElementById("error").onclick = function() 
@@ -10,7 +8,6 @@ function asupport()
    }
 }
 
-window.onload = timing;
 function timing()
 {
    var Today = new Date();
@@ -19,3 +16,6 @@ function timing()
    thisYear = Today.getFullYear();
    document.getElementById("todayTime").innerHTML = Today;
 }
+
+window.onload = timing;
+window.onload = asupport;

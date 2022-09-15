@@ -108,3 +108,9 @@ footer {
     text-align: center;
     animation: infinite colors 5s;
 }
+
+/* Error */
+#error
+{
+    cursor: pointer;
+}

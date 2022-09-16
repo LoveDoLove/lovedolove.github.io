@@ -1,14 +1,1 @@
-html {
-    background: url(/images/bg.jpg) center center/cover fixed;
-}
-body {
-    padding: 10px;
-}
-header > h1.title {
-    color: #ff0;
-    font-size: 25px;
-    animation: 8s infinite colors;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
+html{background:url(/images/bg.jpg) center center/cover fixed}body{padding:10px}header>h1.title{color:#ff0;font-size:25px;animation:8s infinite colors;padding:10px;margin:10px;text-align:center}

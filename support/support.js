@@ -56,10 +56,10 @@ function start()
    submit.addEventListener("click", check);
 
    var a = document.getElementById("headTitle");
-   var c = document.getElementById("name");
-   var d = document.getElementById("mail");
-   var f = document.getElementById("subject");
-   var g = document.getElementById("message");
+   var c = document.getElementById("Name");
+   var d = document.getElementById("Mail");
+   var f = document.getElementById("Subject");
+   var g = document.getElementById("Message");
 
    a.innerText = Base64.decode("V2VsY29tZSBUbyBTdXBwb3J0IFBhZ2U=");
    c.innerText = Base64.decode("VXNlcm5hbWUgOiA=");
@@ -88,6 +88,5 @@ function check()
    else if (mail.value != "" && phone.value != "" && subject != "")
    {
       window.alert(Base64.decode("WW91ciBxdWVzdGlvbiB3aWxsIHNlbmQgdG8gYWRtaW4gbm93ISEh"));
-      return document.getElementById("forms");
    }
 }

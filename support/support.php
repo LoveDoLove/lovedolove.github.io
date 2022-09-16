@@ -1,6 +1,15 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    $name = $_POST['username'];
-    $subject = $_POST['titlequestion'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $mailFrom = $_POST['mail'];
+    $message = $_POST['message'];
+
+    $mailTo = "lovedoloveofficial@gmail.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an e-mail from ".$name.".\n\n".$message;
+
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: support.html?mailsend");
 }

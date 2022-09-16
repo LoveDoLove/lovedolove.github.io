@@ -130,5 +130,5 @@ function i() {
     window.open((document.src = Base64.decode("L2FkYi9hZGIuaHRtbA==")));
 }
 function j() {
-    window.open((document.src = Base64.decode("L3N1cHBvcnQvc3VwcG9ydC5odG1s")));
+    alert(Base64.decode("U3RpbGwgaW4gZGV2ZWxvcGluZy4uLg=="));
 }

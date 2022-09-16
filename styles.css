@@ -1,28 +1,17 @@
 @charset "utf-8";
-
-/* html and body */
-
+body,
 html {
-  background: antiquewhite;
-  height: 100%;
-  margin: 0px auto;
-  min-height: 100%;
-  min-width: 320px;
-  max-width: 1024px;
-  width: 100%;
-  clear: both;
+    min-height: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1024px;
+    width: 100%;
+    clear: both;
 }
-
+html {
+    background: #faebd7;
+    height: 100%;
+}
 body {
-  /* background-color: rgb(4, 238, 255);
-  box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px, inset rgb(51, 21, 21) 0px 0px 40px;
-  border-left: 3px solid rgb(51, 51, 51);
-  border-right: 3px solid rgb(51, 51, 51); */
-  min-height: 100%;  
-  margin: 0px auto;
-  min-width: 320px;
-  max-width: 1024px;  
-  width: 100%;
-  clear: both;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }

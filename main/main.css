@@ -1,19 +1,13 @@
-/*Html Size*/
 html {
-    background: url(/images/bg.jpg) repeat center center fixed;
-    background-size: cover;
+    background: url(/images/bg.jpg) center center/cover fixed;
 }
-
-/* Body */
 body {
     padding: 10px;
 }
-
-/*Header*/
 header > h1.title {
-    color: yellow;
+    color: #ff0;
     font-size: 25px;
-    animation: infinite colors 8s;
+    animation: 8s infinite colors;
     padding: 10px;
     margin: 10px;
     text-align: center;

@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>Main Page</title>
-        <link rel="stylesheet" href="support.css" />
-        <link rel="stylesheet" href="/main/color.css" />
-        <script src="support.js"></script>
-    </head>
-    <body>
-        <div class="pagebody">
-            <div class="title" id="headTitle"></div>
-            <div class="content">
-                <form action="mailto:lovedoloveofficial@gmail.com" method="post" target="_blank" id="forms">
-                    <div class="legend"><legend id="formLegend"></legend></div>
-                    <div class="formcontent"><label for="username" id="userName"></label><input type="text" id="username" name="username" placeholder="LoveDoLove" required /></div>
-                    <div class="formcontent"><label for="email" id="Email"></label><input type="text" id="email" name="email" placeholder="xxx@gmail.com" required /></div>
-                    <div class="formcontent"><label for="phone" id="Phone"></label><input type="tel" name="phone" id="phone" placeholder="(nnn) nnn-nnnn" required /></div>
-                    <div class="formcontent"><label for="titlequestion" id="titleQuestion"></label><input type="text" id="titlequestion" name="titlequestion" placeholder="Title" required /></div>
-                    <div class="formcontent"><label for="question" id="Question"></label><textarea name="question" id="question" cols="50" rows="10" placeholder="I want ask somethings"></textarea></div>
-                    <div class="send"><input type="submit" value="Submit" id="submit" /> <input type="reset" value="Clear" /></div>
-                </form>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="support.css">
+    <link rel="stylesheet" href="/main/color.css">
+    <script src="support.js"></script>
+</head>
+<body>
+    <div class="pagebody">
+        <div class="title" id="headTitle"></div>
+        <div class="content">
+            <form action="" method="post" target="_blank" >
+                <div class="formcontent">
+                    <label for="name" id="name"></label>
+                    <input type="text" id="name" name="name" placeholder="LoveDoLove" required>
+                </div>
+                <div class="formcontent">
+                    <label for="mail" id="mail"></label>
+                    <input type="text" id="mail" name="mail" placeholder="xxx@gmail.com" required>
+                </div>
+                <div class="formcontent">
+                    <label for="subject" id="subject"></label>
+                    <input type="text" id="subject" name="subject" placeholder="Title" required>
+                </div>
+                <div class="formcontent">
+                    <label for="message" id="message"></label>
+                    <textarea name="message" id="message"
+                    cols="50" rows="10" placeholder="I want ask somethings"></textarea>
+                </div>
+                <div class="send">
+                    <input type="submit" value="Submit" id="submit">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
         </div>
-    </body>
+    </div>
+</body>
 </html>

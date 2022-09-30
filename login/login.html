@@ -6,14 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/main/color.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
 </head>
 
 <body>
     <div class="pagebody">
+        <div class="title">
+            <h1>Create Account</h1>
+        </div>
         <div class="content">
-            <form>
+            <form class="createform">
                 <label for="username">Username: </label>
-                <input type="text" name="username" id="username" placeholder="Enter username"
+                <input title="Username must includes capital letter, alphabet and digits." type="text" name="username" id="username" placeholder="Enter username"
                     pattern="^([A-Za-z0-9])\S*$" required />
                 <label for="password">Password: </label>
                 <input type="password" name="password" id="password" placeholder="Enter password"
@@ -23,6 +31,8 @@
                     pattern="^([A-Za-z0-9])\S*$" required />
                 <label for="email">Email: </label>
                 <input type="email" name="email" id="email" placeholder="Enter email" required />
+                <input type="submit" value="Create Account">
+                <input type="reset" value="Cancel">
             </form>
         </div>
     </div>

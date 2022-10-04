@@ -35,6 +35,16 @@ div.content {
   padding: 10px;
 }
 
+div.content > button {
+  font-size: 15px;
+  padding: 10px;
+}
+
+div.content > button:hover {
+  cursor: pointer;
+  background-color: rgb(163, 163, 163);
+}
+
 div.form {
   display: flex;
   flex-direction: row;
